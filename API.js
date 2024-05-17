@@ -21,6 +21,7 @@ const app = express();
 
 app.use(express.json());
 app.use(express.static("dist"));
+
 // !Comentar antes de subir a GitHub
 // ?Descomentar para poder probar con localhost en react
 /*
